@@ -11,7 +11,7 @@ tipo_ritorno nome_funzione(parametri) {
 }
 ```
 
-## Dichiarazione e Definizione
+## Dichiarazione e definizione
 
 ### Definizione completa
 
@@ -45,7 +45,7 @@ I nomi dei parametri nel prototipo sono opzionali:
 int somma(int, int);  // Valido
 ```
 
-## Parametri e Argomenti
+## Parametri e argomenti
 
 - **Parametri**: variabili nella dichiarazione della funzione
 - **Argomenti**: valori passati alla chiamata
@@ -79,7 +79,7 @@ int main(void) {
 }
 ```
 
-## Valore di Ritorno
+## Valore di ritorno
 
 ### return
 
@@ -105,7 +105,7 @@ void saluta(void) {
 }
 ```
 
-## Scope delle Variabili
+## Scope delle variabili
 
 ### Variabili locali
 
@@ -237,7 +237,7 @@ int fibonacci(int n) {
 - La ricorsione usa lo stack: troppi livelli causano stack overflow
 - Spesso e meno efficiente dell'iterazione
 
-## Funzioni con Array
+## Funzioni con array
 
 Gli array vengono sempre passati per riferimento (come puntatori).
 
@@ -267,7 +267,7 @@ int main(void) {
 }
 ```
 
-## Funzioni nella Libreria Standard
+## Funzioni nella libreria standard
 
 ### stdio.h
 
@@ -305,7 +305,7 @@ Nota: compilare con `-lm` per math.h su Linux:
 gcc programma.c -lm -o programma
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Dimenticare il prototipo**
    ```c

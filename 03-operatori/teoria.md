@@ -1,6 +1,6 @@
 # Modulo 03 - Operatori
 
-## Operatori Aritmetici
+## Operatori aritmetici
 
 | Operatore | Descrizione | Esempio |
 |-----------|-------------|---------|
@@ -29,7 +29,7 @@ int pari = 10 % 2;    // pari = 0 (10 e divisibile per 2)
 int dispari = 7 % 2;  // dispari = 1
 ```
 
-## Operatori di Assegnamento
+## Operatori di assegnamento
 
 | Operatore | Equivalente | Esempio |
 |-----------|-------------|---------|
@@ -49,7 +49,7 @@ x /= 4;   // x = 6
 x %= 4;   // x = 2
 ```
 
-## Operatori di Incremento/Decremento
+## Operatori di incremento/decremento
 
 | Operatore | Descrizione |
 |-----------|-------------|
@@ -68,7 +68,7 @@ printf("%d\n", b);  // 6
 printf("%d\n", c);  // 6
 ```
 
-## Operatori Relazionali
+## Operatori relazionali
 
 Restituiscono 1 (vero) o 0 (falso).
 
@@ -88,7 +88,7 @@ printf("%d\n", x > y);   // 1
 printf("%d\n", x != y);  // 1
 ```
 
-## Operatori Logici
+## Operatori logici
 
 | Operatore | Descrizione | Esempio |
 |-----------|-------------|---------|
@@ -117,7 +117,7 @@ if (a && b) { }
 if (a || b) { }
 ```
 
-## Operatori Bitwise
+## Operatori bitwise
 
 Operano sui singoli bit.
 
@@ -168,7 +168,7 @@ flags ^= (1 << 3);  // Inverte il bit 3
 if (flags & (1 << 3)) { /* bit 3 impostato */ }
 ```
 
-## Operatore Condizionale (Ternario)
+## Operatore condizionale (ternario)
 
 ```c
 condizione ? valore_se_vero : valore_se_falso
@@ -186,7 +186,7 @@ else
     max2 = b;
 ```
 
-## Operatore Virgola
+## Operatore virgola
 
 L'operatore virgola valuta le espressioni da sinistra a destra e restituisce l'ultima.
 
@@ -196,7 +196,7 @@ int b, c;
 b = (c = 5, c + 2); // c = 5, b = 7
 ```
 
-## Precedenza degli Operatori
+## Precedenza degli operatori
 
 Dalla precedenza piu alta alla piu bassa:
 
@@ -230,7 +230,7 @@ int x = a + b * c >> d & e;
 int x = ((a + (b * c)) >> d) & e;
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Confondere = e ==**
    ```c

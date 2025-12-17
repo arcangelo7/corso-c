@@ -8,7 +8,7 @@ In C, una stringa e un array di caratteri terminato dal carattere nullo `\0`.
 char str[] = "Hello";  // {'H', 'e', 'l', 'l', 'o', '\0'}
 ```
 
-## Dichiarazione e Inizializzazione
+## Dichiarazione e inizializzazione
 
 ### Come array di caratteri
 
@@ -27,7 +27,7 @@ const char *s = "Hello";  // Punta a memoria read-only
 
 Nota: le stringhe letterali non devono essere modificate.
 
-## Terminatore Nullo
+## Terminatore nullo
 
 Il carattere `\0` (valore ASCII 0) marca la fine della stringa.
 
@@ -44,7 +44,7 @@ char bad[3] = {'A', 'B', 'C'};  // Manca '\0'!
 printf("%s\n", bad);  // Comportamento indefinito
 ```
 
-## Lunghezza di una Stringa
+## Lunghezza di una stringa
 
 ```c
 #include <string.h>
@@ -65,7 +65,7 @@ int my_strlen(const char *s) {
 }
 ```
 
-## Input di Stringhe
+## Input di stringhe
 
 ### scanf
 
@@ -99,7 +99,7 @@ linea[strcspn(linea, "\n")] = '\0';  // Rimuove \n
 char c = getchar();  // Legge un singolo carattere
 ```
 
-## Output di Stringhe
+## Output di stringhe
 
 ```c
 char s[] = "Hello";
@@ -235,7 +235,7 @@ void to_upper(char *s) {
 }
 ```
 
-## Conversione Stringa-Numero
+## Conversione stringa-numero
 
 ### Da stringa a numero (stdlib.h)
 
@@ -258,7 +258,7 @@ double pi = 3.14159;
 sprintf(buffer, "%.2f", pi);  // buffer = "3.14"
 ```
 
-## Array di Stringhe
+## Array di stringhe
 
 ```c
 // Array di puntatori a stringhe
@@ -276,7 +276,7 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
-## Pattern Comuni
+## Pattern comuni
 
 ### Contare caratteri
 
@@ -320,7 +320,7 @@ int is_palindrome(const char *s) {
 }
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Buffer overflow**
    ```c

@@ -1,4 +1,4 @@
-# Modulo 04 - Controllo del Flusso
+# Modulo 04 - Controllo del flusso
 
 ## Istruzione if
 
@@ -254,7 +254,7 @@ for (int i = 0, j = 10; i < j; i++, j--) {
 }
 ```
 
-## Cicli Annidati
+## Cicli annidati
 
 ```c
 for (int i = 1; i <= 3; i++) {
@@ -320,7 +320,7 @@ printf("Uscito dai cicli\n");
 
 Uso legittimo: uscire da cicli annidati o gestione errori in C.
 
-## Pattern Comuni
+## Pattern comuni
 
 ### Input validation
 
@@ -378,7 +378,7 @@ if (trovato) {
 }
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Punto e virgola dopo if/for/while**
    ```c

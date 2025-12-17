@@ -41,7 +41,7 @@ p4.eta = 28;
 p4.altezza = 1.80;
 ```
 
-## Accesso ai Membri
+## Accesso ai membri
 
 ### Operatore punto (.)
 
@@ -100,7 +100,7 @@ typedef struct Nodo {
 } Nodo;
 ```
 
-## Struct Annidate
+## Struct annidate
 
 ```c
 typedef struct {
@@ -119,7 +119,7 @@ Persona p = {"Mario", {15, 6, 1990}};
 printf("Anno nascita: %d\n", p.nascita.anno);
 ```
 
-## Struct e Funzioni
+## Struct e funzioni
 
 ### Passaggio per valore
 
@@ -150,7 +150,7 @@ void incrementa_eta(Persona *p) {
 }
 ```
 
-## Array di Struct
+## Array di struct
 
 ```c
 typedef struct {
@@ -285,7 +285,7 @@ typedef enum {
 Colore c = VERDE;
 ```
 
-## Bit Fields
+## Bit fields
 
 Permettono di specificare il numero di bit per un membro.
 
@@ -304,7 +304,7 @@ f.stato = 10;
 
 Utili per risparmiare memoria o mappare registri hardware.
 
-## Errori Comuni
+## Errori comuni
 
 1. **Assegnare stringhe con =**
    ```c

@@ -1,4 +1,4 @@
-# Modulo 02 - Tipi di Dati e Variabili
+# Modulo 02 - Tipi di dati e variabili
 
 ## Variabili
 
@@ -16,7 +16,7 @@ tipo nome_variabile = valore;  // Dichiarazione con inizializzazione
 - Case-sensitive (`count` != `Count`)
 - Non usare parole riservate (`int`, `if`, `while`, ecc.)
 
-## Tipi Primitivi
+## Tipi primitivi
 
 ### Tipi interi
 
@@ -93,7 +93,7 @@ int main(void) {
 
 Nota: `%zu` e il formato per `size_t`, il tipo restituito da `sizeof`.
 
-## Limiti dei Tipi
+## Limiti dei tipi
 
 L'header `<limits.h>` definisce i limiti per i tipi interi:
 
@@ -153,7 +153,7 @@ const double PI = 3.14159; // Non puo essere modificata
 
 Differenza: `const` crea una variabile con tipo, `#define` fa sostituzione testuale.
 
-## Conversioni di Tipo
+## Conversioni di tipo
 
 ### Conversione implicita
 
@@ -211,7 +211,7 @@ int main(void) {
 | char | %c | %c |
 | stringa | %s | %s |
 
-## Errori Comuni
+## Errori comuni
 
 1. **Variabile non inizializzata**
    ```c

@@ -1,4 +1,4 @@
-# Modulo 10 - Allocazione Dinamica della Memoria
+# Modulo 10 - Allocazione dinamica della memoria
 
 ## Introduzione
 
@@ -132,7 +132,7 @@ Regole:
 - Non chiamare free due volte sullo stesso puntatore
 - free(NULL) e sicuro (non fa nulla)
 
-## Memory Leak
+## Memory leak
 
 Un memory leak si verifica quando memoria allocata non viene mai liberata.
 
@@ -157,7 +157,7 @@ if (condizione_errore) {
 free(p);
 ```
 
-## Dangling Pointer
+## Dangling pointer
 
 Un puntatore che punta a memoria gia liberata.
 
@@ -178,7 +178,7 @@ if (p != NULL) {
 }
 ```
 
-## Double Free
+## Double free
 
 Liberare la stessa memoria due volte causa undefined behavior.
 
@@ -188,7 +188,7 @@ free(p);
 free(p);  // ERRORE! Double free
 ```
 
-## Array Dinamici
+## Array dinamici
 
 ### Array 1D
 
@@ -231,7 +231,7 @@ mat[2 * colonne + 3] = 99;  // mat[2][3]
 free(mat);
 ```
 
-## Struct Dinamiche
+## Struct dinamiche
 
 ```c
 typedef struct {
@@ -265,7 +265,7 @@ for (int i = 0; i < n; i++) {
 free(team);
 ```
 
-## Struct con Membri Dinamici
+## Struct con membri dinamici
 
 ```c
 typedef struct {
@@ -296,7 +296,7 @@ void distruggi_persona(Persona *p) {
 }
 ```
 
-## Pattern: Array Dinamico Ridimensionabile
+## Pattern: array dinamico ridimensionabile
 
 ```c
 typedef struct {
@@ -326,7 +326,7 @@ void distruggi(ArrayDinamico *a) {
 }
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Non controllare il ritorno di malloc**
    ```c
@@ -359,7 +359,7 @@ void distruggi(ArrayDinamico *a) {
    int *b = malloc(100);  // Se fallisce, a non viene liberato
    ```
 
-## Strumenti di Debug
+## Strumenti di debug
 
 ### Valgrind (Linux)
 

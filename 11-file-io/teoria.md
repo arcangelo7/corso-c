@@ -55,7 +55,7 @@ if (fclose(fp) != 0) {
 }
 ```
 
-## Lettura File di Testo
+## Lettura file di testo
 
 ### fgetc - Legge un carattere
 
@@ -101,7 +101,7 @@ while (fscanf(fp, "%d", &n) == 1) {
 }
 ```
 
-## Scrittura File di Testo
+## Scrittura file di testo
 
 ### fputc - Scrive un carattere
 
@@ -134,7 +134,7 @@ int fprintf(FILE *fp, const char *format, ...);
 fprintf(fp, "Nome: %s, Eta: %d\n", nome, eta);
 ```
 
-## File Binari
+## File binari
 
 ### fread - Lettura binaria
 
@@ -179,7 +179,7 @@ int carica_persona(FILE *fp, Persona *p) {
 }
 ```
 
-## Posizionamento nel File
+## Posizionamento nel file
 
 ### fseek - Sposta la posizione
 
@@ -228,7 +228,7 @@ long dimensione_file(FILE *fp) {
 }
 ```
 
-## Controllo Errori
+## Controllo errori
 
 ### feof - Fine file
 
@@ -254,7 +254,7 @@ void clearerr(FILE *fp);
 perror("Messaggio");  // Stampa: Messaggio: descrizione errore
 ```
 
-## Stream Standard
+## Stream standard
 
 ```c
 stdin   // Input standard (tastiera)
@@ -266,7 +266,7 @@ stderr  // Output errori
 fprintf(stderr, "Errore: %s\n", messaggio);
 ```
 
-## Esempio Completo: Copia File
+## Esempio completo: copia file
 
 ```c
 #include <stdio.h>
@@ -339,7 +339,7 @@ void conta_file(const char *filename) {
 }
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Non controllare fopen**
    ```c

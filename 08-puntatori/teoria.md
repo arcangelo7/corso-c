@@ -74,7 +74,7 @@ int *p;  // Valore indefinito - PERICOLOSO!
 *p = 10; // Undefined behavior
 ```
 
-## Puntatori e Funzioni
+## Puntatori e funzioni
 
 ### Passaggio per riferimento
 
@@ -126,7 +126,7 @@ int main(void) {
 }
 ```
 
-## Aritmetica dei Puntatori
+## Aritmetica dei puntatori
 
 I puntatori supportano operazioni aritmetiche che considerano la dimensione del tipo.
 
@@ -165,7 +165,7 @@ if (p1 < p2) {
 }
 ```
 
-## Puntatori e Array
+## Puntatori e array
 
 Il nome di un array e un puntatore costante al primo elemento.
 
@@ -193,7 +193,7 @@ arr++;  // Errore! arr e costante
 p++;    // OK
 ```
 
-## Puntatori a Puntatori
+## Puntatori a puntatori
 
 ```c
 int x = 10;
@@ -215,7 +215,7 @@ char *args[] = {"prog", "-v", "file.txt"};
 // args[0] = "prog", args[1] = "-v", args[2] = "file.txt"
 ```
 
-## Puntatori a Funzioni
+## Puntatori a funzioni
 
 Un puntatore puo contenere l'indirizzo di una funzione.
 
@@ -316,7 +316,7 @@ printf("%f\n", *(double *)p);
 
 Uso comune: funzioni generiche come `malloc`, `memcpy`.
 
-## Errori Comuni
+## Errori comuni
 
 1. **Dereferenziare puntatore NULL**
    ```c
@@ -350,7 +350,7 @@ Uso comune: funzioni generiche come `malloc`, `memcpy`.
    p = p + sizeof(int);  // Sbagliato! Usa p + 1
    ```
 
-## Riepilogo Sintassi
+## Riepilogo sintassi
 
 | Espressione | Significato |
 |-------------|-------------|

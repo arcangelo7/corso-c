@@ -8,7 +8,7 @@ Corso completo di programmazione C, dalla sintassi base alle strutture dati avan
 - Un compilatore C installato (gcc consigliato)
 - Editor di testo o IDE
 
-## Struttura del Corso
+## Struttura del corso
 
 | Modulo | Argomento | Descrizione |
 |--------|-----------|-------------|
@@ -26,7 +26,7 @@ Corso completo di programmazione C, dalla sintassi base alle strutture dati avan
 | 12 | Preprocessore | Macro, compilazione condizionale |
 | 13 | Strutture Dati | Liste, stack, queue |
 
-## Come Usare il Corso
+## Come usare il corso
 
 Ogni modulo contiene:
 - `teoria.md` - Spiegazioni con esempi di codice

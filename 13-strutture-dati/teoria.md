@@ -4,7 +4,7 @@
 
 Le strutture dati permettono di organizzare i dati in modo efficiente. In C si implementano usando puntatori e allocazione dinamica.
 
-## Lista Concatenata (Linked List)
+## Lista concatenata (linked list)
 
 Una lista concatenata e una sequenza di nodi, dove ogni nodo contiene un dato e un puntatore al nodo successivo.
 
@@ -133,7 +133,7 @@ int main(void) {
 }
 ```
 
-## Lista Doppiamente Concatenata
+## Lista doppiamente concatenata
 
 Ogni nodo ha puntatori al nodo precedente e successivo.
 
@@ -369,7 +369,7 @@ int dequeue_lista(QueueLista *q) {
 }
 ```
 
-## Albero Binario (Cenni)
+## Albero binario (cenni)
 
 Un albero binario e una struttura gerarchica dove ogni nodo ha al massimo due figli.
 
@@ -427,7 +427,7 @@ NodoAlbero *cerca_bst(NodoAlbero *radice, int valore) {
 }
 ```
 
-## Confronto Strutture
+## Confronto strutture
 
 | Struttura | Inserimento | Ricerca | Rimozione | Uso tipico |
 |-----------|-------------|---------|-----------|------------|
@@ -437,7 +437,7 @@ NodoAlbero *cerca_bst(NodoAlbero *radice, int valore) {
 | Queue | O(1) | - | O(1) | Scheduling, BFS |
 | BST | O(log n) avg | O(log n) avg | O(log n) avg | Dati ordinati |
 
-## Errori Comuni
+## Errori comuni
 
 1. **Memory leak nelle strutture**
    ```c

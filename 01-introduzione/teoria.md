@@ -1,6 +1,6 @@
 # Modulo 01 - Introduzione al C
 
-## Storia e Caratteristiche
+## Storia e caratteristiche
 
 Il C e stato creato da Dennis Ritchie nei Bell Labs tra il 1969 e il 1973. E un linguaggio:
 
@@ -9,7 +9,7 @@ Il C e stato creato da Dennis Ritchie nei Bell Labs tra il 1969 e il 1973. E un 
 - **Di basso livello**: accesso diretto alla memoria
 - **Portabile**: lo stesso codice compila su diverse piattaforme
 
-### Imperativo vs Dichiarativo
+### Imperativo vs dichiarativo
 
 Un linguaggio **imperativo** descrive *come* eseguire un compito, passo dopo passo. Il programmatore specifica la sequenza esatta di operazioni.
 
@@ -38,7 +38,7 @@ Il C e imperativo perche richiede di specificare:
 
 Il compilatore esegue esattamente le istruzioni scritte, nell'ordine specificato.
 
-## Setup Ambiente
+## Setup ambiente
 
 ### Installazione GCC
 
@@ -65,7 +65,7 @@ xcode-select --install
 gcc --version
 ```
 
-## Struttura di un Programma C
+## Struttura di un programma C
 
 ```c
 #include <stdio.h>    // Direttiva preprocessore: include libreria standard I/O
@@ -114,7 +114,7 @@ Sequenze di escape comuni:
 - `\\` - backslash
 - `\"` - virgolette
 
-## Compilazione ed Esecuzione
+## Compilazione ed esecuzione
 
 ### Processo di compilazione
 
@@ -158,7 +158,7 @@ gcc -Wall -Wextra programma.c -o programma
 */
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Dimenticare il punto e virgola**
    ```c

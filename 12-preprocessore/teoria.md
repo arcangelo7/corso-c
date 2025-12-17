@@ -101,7 +101,7 @@ Rimuove una definizione di macro.
 // ... codice senza debug ...
 ```
 
-## Compilazione Condizionale
+## Compilazione condizionale
 
 ### #ifdef / #ifndef
 
@@ -141,7 +141,7 @@ Rimuove una definizione di macro.
 #endif
 ```
 
-## Header Guards
+## Header guards
 
 Prevengono l'inclusione multipla di un header.
 
@@ -167,7 +167,7 @@ Alternativa moderna (non standard ma supportata):
 // Contenuto dell'header
 ```
 
-## Macro Predefinite
+## Macro predefinite
 
 ```c
 __FILE__    // Nome file sorgente
@@ -214,7 +214,7 @@ int CONCAT(my, Var) = 10;   // int myVar = 10;
 int MAKE_VAR(1) = 100;      // int var1 = 100;
 ```
 
-## Organizzazione Progetto Multi-File
+## Organizzazione progetto multi-file
 
 ### Struttura tipica
 
@@ -310,7 +310,7 @@ Direttive specifiche del compilatore.
 #pragma warning(disable: 4996)  // Disabilita warning (MSVC)
 ```
 
-## Esempio: Configurazione Build
+## Esempio: configurazione build
 
 ```c
 // config.h
@@ -341,7 +341,7 @@ Direttive specifiche del compilatore.
 #endif
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Dimenticare parentesi nelle macro**
    ```c

@@ -8,7 +8,7 @@ Un array e una collezione di elementi dello stesso tipo memorizzati in locazioni
 tipo nome[dimensione];
 ```
 
-## Dichiarazione e Inizializzazione
+## Dichiarazione e inizializzazione
 
 ### Dichiarazione
 
@@ -41,7 +41,7 @@ arr[2] = 100;            // Modifica il terzo elemento
 printf("%d\n", arr[2]);  // 100
 ```
 
-## Dimensione dell'Array
+## Dimensione dell'array
 
 ```c
 int arr[] = {1, 2, 3, 4, 5};
@@ -51,7 +51,7 @@ printf("Elementi: %d\n", dimensione);  // 5
 
 Nota: questo funziona solo se l'array e nello stesso scope. Non funziona con parametri di funzione.
 
-## Iterare su un Array
+## Iterare su un array
 
 ### Con for
 
@@ -74,7 +74,7 @@ while (i < n) {
 }
 ```
 
-## Array Multidimensionali
+## Array multidimensionali
 
 ### Matrici (2D)
 
@@ -126,7 +126,7 @@ int cubo[2][3][4];  // 2 x 3 x 4 elementi
 cubo[0][1][2] = 42;
 ```
 
-## Array e Funzioni
+## Array e funzioni
 
 ### Passaggio di array
 
@@ -173,7 +173,7 @@ void stampa_matrice(int mat[][3], int righe) {
 }
 ```
 
-## Operazioni Comuni
+## Operazioni comuni
 
 ### Somma elementi
 
@@ -252,7 +252,7 @@ void bubble_sort(int arr[], int n) {
 }
 ```
 
-## Array e Indirizzi
+## Array e indirizzi
 
 Il nome di un array e l'indirizzo del suo primo elemento.
 
@@ -268,7 +268,7 @@ printf("%p\n", &arr[1]);  // es: 0x104 (+ sizeof(int))
 printf("%p\n", &arr[2]);  // es: 0x108 (+ 2*sizeof(int))
 ```
 
-## Errori Comuni
+## Errori comuni
 
 1. **Accesso fuori dai limiti**
    ```c
