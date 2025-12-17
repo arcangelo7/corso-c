@@ -13,18 +13,18 @@ Corso completo di programmazione C, dalla sintassi base alle strutture dati avan
 | Modulo | Argomento | Descrizione |
 |--------|-----------|-------------|
 | 01 | Introduzione | Setup, compilazione, primo programma |
-| 02 | Tipi e Variabili | Tipi primitivi, modificatori, sizeof |
+| 02 | Tipi e variabili | Tipi primitivi, modificatori, sizeof |
 | 03 | Operatori | Aritmetici, logici, bitwise |
-| 04 | Controllo Flusso | if, switch, cicli |
+| 04 | Controllo flusso | if, switch, cicli |
 | 05 | Funzioni | Parametri, scope, ricorsione |
 | 06 | Array | Mono e multidimensionali |
 | 07 | Stringhe | Manipolazione e string.h |
 | 08 | Puntatori | Memoria, aritmetica puntatori |
-| 09 | Struct e Union | Tipi composti, typedef |
-| 10 | Allocazione Dinamica | malloc, free, gestione memoria |
+| 09 | Struct e union | Tipi composti, typedef |
+| 10 | Allocazione dinamica | malloc, free, gestione memoria |
 | 11 | File I/O | Lettura/scrittura file |
 | 12 | Preprocessore | Macro, compilazione condizionale |
-| 13 | Strutture Dati | Liste, stack, queue |
+| 13 | Strutture dati | Liste, stack, queue |
 
 ## Come usare il corso
 
