@@ -1,4 +1,4 @@
-# Corso di Programmazione C
+# Corso di programmazione C
 
 Corso completo di programmazione C, dalla sintassi base alle strutture dati avanzate.
 
