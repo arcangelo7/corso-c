@@ -16,12 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_incremento.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: dimostra post-incremento
-    // TODO: dimostra pre-incremento
-
-    return 0;
-}

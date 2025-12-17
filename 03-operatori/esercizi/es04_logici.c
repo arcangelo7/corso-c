@@ -15,12 +15,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_logici.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi un numero
-    // TODO: verifica le tre condizioni
-
-    return 0;
-}

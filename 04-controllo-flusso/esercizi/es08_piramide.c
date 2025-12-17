@@ -20,12 +20,3 @@
  *
  * Compilazione: gcc -Wall -o es08 es08_piramide.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi l'altezza della piramide
-    // TODO: usa cicli annidati per stampare spazi e asterischi
-
-    return 0;
-}

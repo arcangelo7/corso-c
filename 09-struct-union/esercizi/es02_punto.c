@@ -17,17 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_punto.c -lm
  */
-
-#include <stdio.h>
-#include <math.h>
-
-// TODO: definisci struct Punto
-
-// TODO: implementa distanza
-
-int main(void) {
-    // TODO: leggi due punti
-    // TODO: calcola e stampa la distanza
-
-    return 0;
-}

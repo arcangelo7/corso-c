@@ -14,16 +14,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_potenza.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo
-
-int main(void) {
-    // TODO: leggi base ed esponente
-    // TODO: calcola e stampa la potenza
-
-    return 0;
-}
-
-// TODO: implementa la funzione potenza

@@ -11,19 +11,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_maiuscole.c
  */
-
-#include <stdio.h>
-#include <ctype.h>
-
-// TODO: implementa to_upper
-
-int main(void) {
-    char str[100];
-
-    printf("Inserisci una stringa: ");
-    // TODO: leggi la stringa
-    // TODO: converti in maiuscolo
-    // TODO: stampa il risultato
-
-    return 0;
-}

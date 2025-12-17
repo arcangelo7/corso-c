@@ -10,16 +10,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_fattoriale_ric.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo
-
-int main(void) {
-    // TODO: leggi un numero
-    // TODO: calcola e stampa il fattoriale
-
-    return 0;
-}
-
-// TODO: implementa la funzione fattoriale ricorsiva

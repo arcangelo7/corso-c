@@ -13,11 +13,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_escape.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: stampa le tre righe usando \t, \", \\
-
-    return 0;
-}

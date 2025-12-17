@@ -16,12 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_overflow.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: dimostra overflow con unsigned char
-    // TODO: dimostra overflow con signed char
-
-    return 0;
-}

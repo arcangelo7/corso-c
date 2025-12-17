@@ -23,22 +23,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_matrice.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-// TODO: implementa le funzioni
-
-int main(void) {
-    int righe, colonne;
-
-    printf("Righe e colonne: ");
-    scanf("%d %d", &righe, &colonne);
-
-    // TODO: crea matrice
-    // TODO: riempi (mat[i][j] = i*10 + j)
-    // TODO: stampa
-    // TODO: libera
-
-    return 0;
-}

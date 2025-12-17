@@ -13,17 +13,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_vocali.c
  */
-
-#include <stdio.h>
-#include <ctype.h>
-
-int main(void) {
-    char str[100];
-
-    printf("Inserisci una stringa: ");
-    // TODO: leggi la stringa
-    // TODO: conta vocali (a, e, i, o, u) e consonanti
-    // TODO: stampa i risultati
-
-    return 0;
-}

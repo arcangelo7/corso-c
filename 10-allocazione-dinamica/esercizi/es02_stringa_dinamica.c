@@ -21,19 +21,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_stringa_dinamica.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-// TODO: implementa mia_strdup
-
-int main(void) {
-    const char *originale = "Hello World";
-
-    // TODO: duplica la stringa
-    // TODO: stampa originale e copia
-    // TODO: libera la memoria
-
-    return 0;
-}

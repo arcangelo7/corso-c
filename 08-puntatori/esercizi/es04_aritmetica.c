@@ -20,14 +20,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_aritmetica.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    int arr[] = {10, 20, 30, 40, 50};
-
-    // TODO: usa un puntatore per scorrere e stampare l'array
-    // TODO: stampa anche l'indirizzo di ogni elemento
-
-    return 0;
-}

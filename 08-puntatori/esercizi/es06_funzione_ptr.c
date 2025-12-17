@@ -21,18 +21,3 @@
  *
  * Compilazione: gcc -Wall -o es06 es06_funzione_ptr.c
  */
-
-#include <stdio.h>
-
-// TODO: implementa le 4 funzioni
-
-int main(void) {
-    double (*operazione)(double, double);
-
-    // TODO: leggi operazione (+, -, *, /)
-    // TODO: assegna la funzione corretta al puntatore
-    // TODO: leggi i due numeri
-    // TODO: esegui l'operazione tramite il puntatore
-
-    return 0;
-}

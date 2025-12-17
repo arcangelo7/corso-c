@@ -11,12 +11,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_pari_dispari.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi un numero
-    // TODO: usa if-else per determinare se e pari o dispari
-
-    return 0;
-}

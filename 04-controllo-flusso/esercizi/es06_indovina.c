@@ -19,15 +19,3 @@
  *
  * Compilazione: gcc -Wall -o es06 es06_indovina.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    int segreto = 42;  // Numero da indovinare
-
-    // TODO: implementa il gioco con do-while
-    // TODO: conta i tentativi
-    // TODO: dai suggerimenti (troppo alto/basso)
-
-    return 0;
-}

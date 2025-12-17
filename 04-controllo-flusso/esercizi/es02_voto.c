@@ -16,12 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_voto.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi un voto
-    // TODO: usa if-else if per determinare la valutazione
-
-    return 0;
-}

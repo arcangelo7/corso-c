@@ -8,17 +8,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_lunghezza.c
  */
-
-#include <stdio.h>
-
-// TODO: implementa my_strlen
-
-int main(void) {
-    char str[100];
-
-    printf("Inserisci una stringa: ");
-    // TODO: leggi la stringa
-    // TODO: calcola e stampa la lunghezza
-
-    return 0;
-}

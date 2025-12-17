@@ -18,13 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_costanti.c
  */
-
-#include <stdio.h>
-
-// TODO: definisci le costanti
-
-int main(void) {
-    // TODO: usa le costanti
-
-    return 0;
-}

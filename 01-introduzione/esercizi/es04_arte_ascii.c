@@ -15,11 +15,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_arte_ascii.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: stampa una figura ASCII usando piu printf
-
-    return 0;
-}

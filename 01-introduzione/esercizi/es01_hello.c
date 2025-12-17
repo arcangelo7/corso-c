@@ -8,11 +8,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_hello.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: stampa "Ciao, mondo!" usando printf
-
-    return 0;
-}

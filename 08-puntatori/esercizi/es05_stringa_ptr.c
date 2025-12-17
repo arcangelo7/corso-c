@@ -18,19 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_stringa_ptr.c
  */
-
-#include <stdio.h>
-
-// TODO: implementa str_len usando puntatori
-// TODO: implementa str_cpy usando puntatori
-// TODO: implementa str_cmp usando puntatori
-
-int main(void) {
-    char s1[] = "Hello";
-    char s2[] = "World";
-    char dest[20];
-
-    // TODO: testa le funzioni
-
-    return 0;
-}

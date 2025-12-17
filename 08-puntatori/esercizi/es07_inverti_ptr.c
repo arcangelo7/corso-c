@@ -18,19 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es07 es07_inverti_ptr.c
  */
-
-#include <stdio.h>
-
-// TODO: implementa inverti usando puntatori
-
-int main(void) {
-    int arr[100];
-    int n;
-
-    // TODO: leggi l'array
-    // TODO: stampa prima
-    // TODO: chiama inverti(arr, arr + n - 1)
-    // TODO: stampa dopo
-
-    return 0;
-}

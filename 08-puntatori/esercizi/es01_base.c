@@ -18,14 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_base.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: dichiara int x = 42 e int *p = &x
-    // TODO: stampa x, &x, p, *p
-    // TODO: modifica *p = 100
-    // TODO: stampa x
-
-    return 0;
-}

@@ -18,12 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_relazionali.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi due numeri
-    // TODO: stampa il risultato di ogni confronto
-
-    return 0;
-}

@@ -25,31 +25,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_struct_dinamica.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-typedef struct {
-    char *nome;    // Allocato dinamicamente
-    double prezzo;
-} Prodotto;
-
-// TODO: funzione per creare un prodotto
-// Prodotto *crea_prodotto(const char *nome, double prezzo);
-
-// TODO: funzione per liberare un prodotto
-// void libera_prodotto(Prodotto *p);
-
-int main(void) {
-    int n;
-    printf("Quanti prodotti? ");
-    scanf("%d", &n);
-
-    // TODO: alloca array di Prodotto
-    // TODO: leggi e crea ogni prodotto
-    // TODO: stampa tutti i prodotti e il totale
-    // TODO: libera tutta la memoria
-
-    return 0;
-}

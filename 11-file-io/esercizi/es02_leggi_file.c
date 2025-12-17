@@ -17,15 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_leggi_file.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    char filename[100];
-    char linea[200];
-
-    // TODO: chiedi nome file
-    // TODO: apri il file e stampa ogni riga con il suo numero
-
-    return 0;
-}

@@ -17,18 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_conta.c
  */
-
-#include <stdio.h>
-#include <ctype.h>
-
-int main(void) {
-    char filename[100];
-
-    // TODO: chiedi nome file
-    // TODO: apri file
-    // TODO: conta righe, parole, caratteri
-    // TODO: stampa statistiche
-    // TODO: chiudi file
-
-    return 0;
-}

@@ -13,11 +13,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_multiriga.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: stampa nome, professione e email su righe separate
-
-    return 0;
-}

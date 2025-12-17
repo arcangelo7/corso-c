@@ -14,15 +14,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_max_min.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    int numeri[100];
-
-    // TODO: leggi n e i numeri
-    // TODO: trova massimo, minimo e le loro posizioni
-    // TODO: stampa i risultati
-
-    return 0;
-}

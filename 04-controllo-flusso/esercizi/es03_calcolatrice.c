@@ -25,14 +25,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_calcolatrice.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi due numeri (double)
-    // TODO: leggi operazione (char)
-    // TODO: usa switch per eseguire l'operazione
-    // TODO: gestisci divisione per zero
-
-    return 0;
-}

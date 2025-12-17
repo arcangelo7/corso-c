@@ -11,12 +11,3 @@
  *
  * Compilazione: gcc -Wall -o es07 es07_primi.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi N
-    // TODO: stampa i numeri primi fino a N
-
-    return 0;
-}

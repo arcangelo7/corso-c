@@ -16,16 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_somma.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    int numeri[100];
-
-    // TODO: leggi n (numero di elementi)
-    // TODO: leggi n numeri nell'array
-    // TODO: calcola somma e media
-    // TODO: stampa i risultati
-
-    return 0;
-}

@@ -9,16 +9,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_massimo.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo
-
-int main(void) {
-    // TODO: leggi tre numeri
-    // TODO: trova il massimo usando la funzione max
-
-    return 0;
-}
-
-// TODO: implementa la funzione max

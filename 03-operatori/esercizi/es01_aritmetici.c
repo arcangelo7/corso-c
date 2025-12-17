@@ -18,13 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_aritmetici.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: dichiara due variabili intere
-    // TODO: leggi i valori con scanf
-    // TODO: stampa i risultati delle 5 operazioni
-
-    return 0;
-}

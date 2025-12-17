@@ -13,16 +13,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_primo.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo
-
-int main(void) {
-    // TODO: leggi N
-    // TODO: stampa tutti i primi fino a N usando is_prime
-
-    return 0;
-}
-
-// TODO: implementa la funzione is_prime

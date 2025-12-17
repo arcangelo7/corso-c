@@ -18,19 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_data.c
  */
-
-#include <stdio.h>
-
-// TODO: definisci struct Data e struct Evento
-
-// TODO: implementa data_valida
-
-// TODO: implementa confronta_date
-
-int main(void) {
-    // TODO: crea alcune date
-    // TODO: verifica validita
-    // TODO: confronta date
-
-    return 0;
-}

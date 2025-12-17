@@ -17,36 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_queue.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct Nodo {
-    int dato;
-    struct Nodo *next;
-} Nodo;
-
-typedef struct {
-    Nodo *front;
-    Nodo *rear;
-} Queue;
-
-// TODO: implementa init_queue
-// TODO: implementa is_empty
-// TODO: implementa enqueue
-// TODO: implementa dequeue
-// TODO: implementa stampa_queue
-// TODO: implementa libera_queue
-
-int main(void) {
-    Queue q;
-
-    // TODO: inizializza
-    // TODO: enqueue 1, 2, 3
-    // TODO: dequeue due volte e stampa
-    // TODO: enqueue 4
-    // TODO: stampa coda
-    // TODO: libera memoria
-
-    return 0;
-}

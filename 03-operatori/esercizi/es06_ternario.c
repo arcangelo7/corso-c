@@ -20,13 +20,3 @@
  *
  * Compilazione: gcc -Wall -o es06 es06_ternario.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi tre numeri
-    // TODO: trova massimo con operatore ternario
-    // TODO: trova minimo con operatore ternario
-
-    return 0;
-}

@@ -18,19 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_scrivi_file.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    char filename[100];
-    char linea[200];
-    int n;
-
-    // TODO: chiedi nome file
-    // TODO: chiedi numero di righe
-    // TODO: apri file in scrittura (controlla errore!)
-    // TODO: leggi e scrivi ogni riga
-    // TODO: chiudi file
-
-    return 0;
-}

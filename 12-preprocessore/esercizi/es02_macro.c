@@ -20,20 +20,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_macro.c
  */
-
-#include <stdio.h>
-
-// TODO: definisci le macro
-
-int main(void) {
-    // TODO: testa le macro
-
-    printf("MAX(5, 3) = %d\n", MAX(5, 3));
-    printf("MIN(5, 3) = %d\n", MIN(5, 3));
-    printf("ABS(-7) = %d\n", ABS(-7));
-    printf("QUADRATO(4) = %d\n", QUADRATO(4));
-    printf("CUBO(3) = %d\n", CUBO(3));
-    printf("QUADRATO(2+1) = %d\n", QUADRATO(2+1));
-
-    return 0;
-}

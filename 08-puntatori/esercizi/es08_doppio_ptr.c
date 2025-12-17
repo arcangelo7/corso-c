@@ -23,14 +23,3 @@
  *
  * Compilazione: gcc -Wall -o es08 es08_doppio_ptr.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: dichiara x, p, pp
-    // TODO: stampa valori e indirizzi
-    // TODO: modifica **pp = 100
-    // TODO: stampa x
-
-    return 0;
-}

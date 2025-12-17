@@ -14,17 +14,3 @@
  *
  * Compilazione: gcc -Wall -o es06 es06_parole.c
  */
-
-#include <stdio.h>
-#include <ctype.h>
-
-int main(void) {
-    char str[200];
-
-    printf("Inserisci una frase: ");
-    // TODO: leggi la stringa con fgets
-    // TODO: conta le parole
-    // TODO: stampa il risultato
-
-    return 0;
-}

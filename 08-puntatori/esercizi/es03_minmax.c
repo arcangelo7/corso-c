@@ -16,19 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_minmax.c
  */
-
-#include <stdio.h>
-
-// TODO: implementa minmax
-
-int main(void) {
-    int arr[100];
-    int n;
-    int min, max;
-
-    // TODO: leggi n e l'array
-    // TODO: chiama minmax passando &min e &max
-    // TODO: stampa i risultati
-
-    return 0;
-}

@@ -22,17 +22,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_ricerca.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo e implementa la funzione
-
-int main(void) {
-    int numeri[100];
-
-    // TODO: leggi l'array
-    // TODO: chiedi il valore da cercare
-    // TODO: usa la funzione cerca e stampa il risultato
-
-    return 0;
-}

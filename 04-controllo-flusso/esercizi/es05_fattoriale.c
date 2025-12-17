@@ -16,13 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_fattoriale.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi un numero
-    // TODO: calcola il fattoriale con un ciclo
-    // TODO: stampa il risultato
-
-    return 0;
-}

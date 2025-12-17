@@ -17,28 +17,3 @@
  *
  * Compilazione: gcc -Wall -DDEBUG -o es03 es03_debug.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-// TODO: definisci DEBUG_LOG
-// TODO: definisci VERBOSE_LOG
-// TODO: definisci ASSERT
-
-int somma(int a, int b) {
-    DEBUG_LOG("Entrato in somma");
-    VERBOSE_LOG("Calcolo somma di due numeri");
-    ASSERT(a >= 0);
-    ASSERT(b >= 0);
-    return a + b;
-}
-
-int main(void) {
-    DEBUG_LOG("Programma avviato");
-
-    int risultato = somma(5, 3);
-    printf("Risultato: %d\n", risultato);
-
-    DEBUG_LOG("Programma terminato");
-    return 0;
-}

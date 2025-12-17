@@ -25,20 +25,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_studenti.c
  */
-
-#include <stdio.h>
-#include <string.h>
-
-#define MAX_STUDENTI 100
-
-// TODO: definisci struct Studente
-
-int main(void) {
-    // TODO: array di studenti
-    // TODO: leggi n studenti
-    // TODO: stampa lista
-    // TODO: trova migliore
-    // TODO: calcola media
-
-    return 0;
-}

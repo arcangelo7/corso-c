@@ -18,16 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_array_dinamico.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(void) {
-    // TODO: leggi n
-    // TODO: alloca dinamicamente un array di n elementi
-    // TODO: leggi i numeri
-    // TODO: calcola e stampa somma e media
-    // TODO: libera la memoria
-
-    return 0;
-}

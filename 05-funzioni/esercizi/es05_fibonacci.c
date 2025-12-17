@@ -17,17 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_fibonacci.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo
-
-int main(void) {
-    // TODO: leggi n
-    // TODO: stampa F(n)
-    // TODO: (bonus) stampa la sequenza
-
-    return 0;
-}
-
-// TODO: implementa la funzione fibonacci

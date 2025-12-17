@@ -21,24 +21,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_realloc.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(void) {
-    int capacita = 2;
-    int dimensione = 0;
-    int *arr = malloc(capacita * sizeof(int));
-
-    if (arr == NULL) {
-        printf("Errore allocazione\n");
-        return 1;
-    }
-
-    // TODO: leggi numeri finche != -1
-    // TODO: quando dimensione == capacita, usa realloc per raddoppiare
-    // TODO: stampa i numeri inseriti
-    // TODO: libera memoria
-
-    return 0;
-}

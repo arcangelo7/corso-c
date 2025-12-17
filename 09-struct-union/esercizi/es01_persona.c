@@ -19,20 +19,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_persona.c
  */
-
-#include <stdio.h>
-#include <string.h>
-
-// TODO: definisci la struct Persona
-
-// TODO: funzione per leggere dati persona
-
-// TODO: funzione per stampare persona
-
-int main(void) {
-    // TODO: crea una Persona
-    // TODO: leggi i dati
-    // TODO: stampa i dati
-
-    return 0;
-}

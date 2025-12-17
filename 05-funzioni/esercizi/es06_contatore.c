@@ -17,15 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es06 es06_contatore.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo
-
-int main(void) {
-    // TODO: chiama la funzione 5 volte e stampa il risultato
-
-    return 0;
-}
-
-// TODO: implementa la funzione con variabile static

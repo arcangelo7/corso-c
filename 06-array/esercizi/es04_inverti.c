@@ -17,17 +17,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_inverti.c
  */
-
-#include <stdio.h>
-
-// TODO: scrivi il prototipo e implementa la funzione
-
-int main(void) {
-    int numeri[100];
-
-    // TODO: leggi l'array
-    // TODO: stampa l'originale
-    // TODO: inverti e stampa
-
-    return 0;
-}

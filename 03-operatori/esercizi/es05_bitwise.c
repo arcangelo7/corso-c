@@ -18,14 +18,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_bitwise.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi un numero
-    // TODO: verifica se e pari o dispari
-    // TODO: moltiplica per 2
-    // TODO: dividi per 2
-
-    return 0;
-}

@@ -20,18 +20,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_bubble_sort.c
  */
-
-#include <stdio.h>
-
-// TODO: implementa bubble_sort
-
-int main(void) {
-    int numeri[100];
-
-    // TODO: leggi l'array
-    // TODO: stampa prima dell'ordinamento
-    // TODO: ordina con bubble_sort
-    // TODO: stampa dopo l'ordinamento
-
-    return 0;
-}

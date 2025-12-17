@@ -12,12 +12,3 @@
  *
  * Compilazione: gcc -Wall -o es02 es02_limiti.c
  */
-
-#include <stdio.h>
-#include <limits.h>
-
-int main(void) {
-    // TODO: stampa i limiti usando le costanti di limits.h
-
-    return 0;
-}

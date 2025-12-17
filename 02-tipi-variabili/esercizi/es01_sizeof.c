@@ -15,11 +15,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_sizeof.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: stampa la dimensione in byte di ogni tipo
-
-    return 0;
-}

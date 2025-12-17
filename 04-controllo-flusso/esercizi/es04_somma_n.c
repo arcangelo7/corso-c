@@ -15,13 +15,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_somma_n.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: leggi N
-    // TODO: calcola la somma con un ciclo for
-    // TODO: stampa il risultato
-
-    return 0;
-}

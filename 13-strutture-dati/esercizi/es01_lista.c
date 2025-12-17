@@ -15,29 +15,3 @@
  *
  * Compilazione: gcc -Wall -o es01 es01_lista.c
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct Nodo {
-    int dato;
-    struct Nodo *next;
-} Nodo;
-
-// TODO: implementa crea_nodo
-// TODO: implementa inserisci_testa
-// TODO: implementa inserisci_coda
-// TODO: implementa stampa_lista
-// TODO: implementa lunghezza_lista
-// TODO: implementa libera_lista
-
-int main(void) {
-    Nodo *lista = NULL;
-
-    // TODO: inserisci 5, 10, 15 in coda
-    // TODO: inserisci 1 in testa
-    // TODO: stampa lista e lunghezza
-    // TODO: libera memoria
-
-    return 0;
-}

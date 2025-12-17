@@ -20,13 +20,3 @@
  *
  * Compilazione: gcc -Wall -o es04 es04_input.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: dichiara le variabili necessarie
-    // TODO: leggi i valori dall'utente
-    // TODO: stampa il riepilogo
-
-    return 0;
-}

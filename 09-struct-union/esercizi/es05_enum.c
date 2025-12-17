@@ -19,15 +19,3 @@
  *
  * Compilazione: gcc -Wall -o es05 es05_enum.c
  */
-
-#include <stdio.h>
-
-// TODO: definisci enum Giorno
-
-int main(void) {
-    // TODO: leggi numero 1-7
-    // TODO: usa switch per stampare il giorno
-    // TODO: indica se lavorativo o weekend
-
-    return 0;
-}

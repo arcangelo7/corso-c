@@ -16,11 +16,3 @@
  *
  * Compilazione: gcc -Wall -o es03 es03_conversioni.c
  */
-
-#include <stdio.h>
-
-int main(void) {
-    // TODO: implementa le conversioni richieste
-
-    return 0;
-}
