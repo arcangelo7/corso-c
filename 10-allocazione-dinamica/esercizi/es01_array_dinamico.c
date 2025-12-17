@@ -24,12 +24,10 @@
 
 int main(void) {
     // TODO: leggi n
-    // TODO: alloca array con malloc
-    // TODO: controlla se malloc ha successo
+    // TODO: alloca dinamicamente un array di n elementi
     // TODO: leggi i numeri
-    // TODO: calcola somma e media
-    // TODO: stampa risultati
-    // TODO: libera memoria con free
+    // TODO: calcola e stampa somma e media
+    // TODO: libera la memoria
 
     return 0;
 }

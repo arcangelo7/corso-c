@@ -23,9 +23,9 @@
 
 int main(void) {
     // TODO: leggi un numero
-    // TODO: verifica pari/dispari con n & 1
-    // TODO: moltiplica per 2 con n << 1
-    // TODO: dividi per 2 con n >> 1
+    // TODO: verifica se e pari o dispari
+    // TODO: moltiplica per 2
+    // TODO: dividi per 2
 
     return 0;
 }

@@ -5,8 +5,6 @@
  * n! = n * (n-1)!
  * 0! = 1
  *
- * Prototipo: long fattoriale(int n);
- *
  * Input esempio: 6
  * Output atteso: 6! = 720
  *

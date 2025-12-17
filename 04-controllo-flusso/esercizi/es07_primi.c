@@ -9,9 +9,6 @@
  * Numeri primi fino a 20:
  * 2 3 5 7 11 13 17 19
  *
- * Suggerimento: per ogni numero da 2 a N, verifica se e primo
- * controllando se ha divisori tra 2 e la sua radice quadrata.
- *
  * Compilazione: gcc -Wall -o es07 es07_primi.c
  */
 
@@ -19,8 +16,7 @@
 
 int main(void) {
     // TODO: leggi N
-    // TODO: per ogni numero da 2 a N, verifica se e primo
-    // TODO: usa break per ottimizzare quando trovi un divisore
+    // TODO: stampa i numeri primi fino a N
 
     return 0;
 }

@@ -21,11 +21,8 @@ int main(void) {
     char src[100], dst[100];
 
     // TODO: chiedi file sorgente e destinazione
-    // TODO: apri sorgente in lettura binaria
-    // TODO: apri destinazione in scrittura binaria
-    // TODO: copia usando buffer
-    // TODO: conta byte copiati
-    // TODO: chiudi file e stampa risultato
+    // TODO: copia il contenuto del file sorgente nella destinazione
+    // TODO: stampa il numero di byte copiati
 
     return 0;
 }

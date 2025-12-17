@@ -25,7 +25,7 @@
 
 int main(void) {
     // TODO: dichiara le variabili necessarie
-    // TODO: usa scanf per leggere i valori
+    // TODO: leggi i valori dall'utente
     // TODO: stampa il riepilogo
 
     return 0;

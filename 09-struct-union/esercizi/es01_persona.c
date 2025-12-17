@@ -23,13 +23,11 @@
 #include <stdio.h>
 #include <string.h>
 
-// TODO: definisci la struct Persona (usa typedef)
+// TODO: definisci la struct Persona
 
 // TODO: funzione per leggere dati persona
-// void leggi_persona(Persona *p);
 
 // TODO: funzione per stampare persona
-// void stampa_persona(const Persona *p);
 
 int main(void) {
     // TODO: crea una Persona

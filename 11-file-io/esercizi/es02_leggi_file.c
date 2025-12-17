@@ -25,9 +25,7 @@ int main(void) {
     char linea[200];
 
     // TODO: chiedi nome file
-    // TODO: apri in lettura (controlla errore!)
-    // TODO: leggi e stampa ogni riga con numero
-    // TODO: chiudi file
+    // TODO: apri il file e stampa ogni riga con il suo numero
 
     return 0;
 }

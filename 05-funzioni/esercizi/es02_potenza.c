@@ -4,8 +4,6 @@
  * Scrivi una funzione che calcola la potenza di un numero intero.
  * Non usare pow() di math.h, implementala con un ciclo.
  *
- * Prototipo: long potenza(int base, int esponente);
- *
  * Input esempio: 2 10
  * Output atteso: 2^10 = 1024
  *

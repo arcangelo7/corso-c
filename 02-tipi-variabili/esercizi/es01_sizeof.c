@@ -19,8 +19,7 @@
 #include <stdio.h>
 
 int main(void) {
-    // TODO: usa sizeof per stampare la dimensione di ogni tipo
-    // Usa %zu come formato per sizeof
+    // TODO: stampa la dimensione in byte di ogni tipo
 
     return 0;
 }
